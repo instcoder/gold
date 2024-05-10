@@ -1,0 +1,120 @@
+<html>
+<head>
+<title>Golden Entertainment - Get YOUR income having fun with US.</title>
+</head>
+<style type=text/css>
+<!--
+a:link,a:visited,a:active {text-decoration: none;}
+a:hover {text-decoration:underline;}
+.tlinks {text-decoration: none;}
+-->
+</style>
+<script language="JavaScript">
+var ImageSrc = Array("img/about_o",
+                     "img/rules_o",
+                     "img/forum_o",
+                     "img/spend_o",
+                     "img/contact_o");
+var ImageOff = Array();
+for (i in ImageSrc)
+{
+ ImageOff[i] = new Image();
+ ImageOff[i].src = ImageSrc[i]+"ff.gif";
+}
+var ImageOn = Array();
+for (i in ImageSrc)
+{
+ ImageOn[i] = new Image();
+ ImageOn[i].src = ImageSrc[i]+"n.gif";
+}
+
+var oldobj=0;
+
+function show(obj)
+{
+ eval("document.images.M"+obj+".src=ImageOn["+obj+"].src");
+ oldobj = obj;
+}
+
+function hide()
+{
+ eval("document.images.M"+oldobj+".src=ImageOff["+oldobj+"].src");
+}
+</script>
+<body marginheight=0 marginwith=0 leftmargin=0 topmargin=0 bgcolor=#008498 text=white link=#30c4e0 alink=#30c4e0 vlink=#30c4e0 background=img/background.jpg>
+<table border=0 cellspacing=0 cellpadding=0 width=100% height=100%><tr><td width=100% height=100% align=center valign=middle>
+
+<table border=0 cellspacing=0 cellpadding=0 height=384>
+<tr>
+<td width=190 height=384 valign=top rowspan=3>
+<img src=img/logo.gif width=190 height=51 border=0 alt="Golden Entertainment"><br>
+<img src=img/1.gif width=190 height=105 alt="" border=0><br>
+<nobr><img src=img/2.gif width=49 height=22 alt="" border=0><a href=index.html onmouseover="show(0);" onmouseout="hide()" target=_top><img name="M0" src=img/about_off.gif width=68 height=22 alt="About Us" border=0></a><img src=img/3.gif width=73 height=22 alt="" border=0></nobr><br>
+<img src=img/4.gif width=190 height=19 alt="" border=0><br>
+<nobr><img src=img/5.gif width=29 height=22 alt="" border=0><a href=rules.html onmouseover="show(1);" onmouseout="hide()" target=_top><img name="M1" src=img/rules_off.gif width=88 height=22 alt="Rules" border=0></a><!--<img src=img/6.gif width=73 height=22 alt="" border=0>--></nobr><br>
+<img src=img/7.gif width=190 height=23 alt="" border=0><br>
+<nobr><img src=img/8.gif width=19 height=22 alt="" border=0><a href=forum.html onmouseover="show(2);" onmouseout="hide()" target=_top><img name="M2" src=img/forum_off.gif width=72 height=22 alt="Golden Entertaiment Forum" border=0></a><img src=img/9.gif width=99 height=22 alt="" border=0></nobr><br>
+<img src=img/10.gif width=190 height=22 alt="" border=0><br>
+<nobr><img src=img/11.gif width=19 height=23 alt="" border=0><a href=spend.html onmouseover="show(3);" onmouseout="hide()" target=_top><img name="M3" src=img/spend_off.gif width=72 height=23 alt="Pay Us" border=0></a><img src=img/12.gif width=99 height=23 alt="" border=0></nobr><br>
+<img src=img/13.gif width=190 height=20 alt="" border=0><br>
+<nobr><img src=img/14.gif width=29 height=23 alt="" border=0><a href=contact.html onmouseover="show(4);" onmouseout="hide()" target=_top><img name="M4" src=img/contact_off.gif width=88 height=23 alt="Contact Us" border=0></a><img src=img/15.gif width=73 height=23 alt="" border=0></nobr><br>
+<img src=img/16.gif width=190 height=32 alt="" border=0><br></td>
+<td height=51 valign=top>
+
+<table border=0 cellspacing=0 cellpadding=0 height=51>
+<tr>
+<td width=85 height=51><img src=img/tcorner.gif width=85 height=51 border=0 alt=""><br></td>
+<td width=150 height=51><br></td>
+<td width=296 height=51><img src=img/forum/title.gif width=315 height=51 border=0 alt="About Us"><br></td>
+</tr>
+</table>
+
+</td>
+</tr>
+
+<tr>
+<td width=446 height=312 valign=middle align=right>
+<font face=verdana size=2>
+
+
+<!--TEXT-->
+<div align="center">
+Please insert your Personal Indification Number to enter the forum.<br>
+<font color="#000000" size=1>This forum is available for our members only. After you make a spend, we will send your PIN using  the email you provided.
+<br><br><br>
+<TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0 WIDTH=100>
+<form action="board.html" method="post">
+<tr><td align="right">PIN:</td><td align="left"><input type="text" name="pin" size=10></td></tr> 
+<tr><td colspan=2>&nbsp;</td></tr>
+<tr><td align="center" colspan=2><input type="submit" value="Login"></td></tr>
+</form>
+
+</TABLE>
+</div>
+<!--TEXT ENDS-->
+
+
+</font>
+</td>
+</tr>
+
+<tr>
+<td width=446 height=21 valign=top>
+
+<table border=0 cellspacing=0 cellpadding=0 height=21>
+<tr>
+<td width=72 height=21><img src=img/bcorner.gif width=72 height=21 border=0 alt=""><br></td>
+<td width=396 height=21 align=right valign=bottom>
+<font size=1 face="arial,helvetica" color=#00a4b8>Copyright 2002 by Golden Entertainment <b><a href="http://www.goldentertainment.net/"><font color=#30c4e0 class=tlinks><b>www.goldentertainment.net</b></font></a></b></font>
+
+</td>
+</tr>
+</table>
+
+</td>
+</tr>
+</table>
+
+</td></tr></table>
+</body>
+</html>
